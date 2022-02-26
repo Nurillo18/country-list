@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg_color);
+    color:var()
+}
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+:root{
+    --bg_color:#f2f2f2;
+    --main_color:#000;
+    --header__color: #fff;
+}
+.dark{
+    --bg_color:#202C36;
+    --main_color:#fff;
+    --header__color:#2B3844;
+}
+
+.site-header {
+    background-color:var(--header__color);
+    color: var(--main_color);
+}
+.change-text{
+    color: var(--main_color);
+}
+
+.searching-inp{
+    background-color: var(--header__color);
+}
+
+.searching-inp::placeholder{
+    color:var(--main_color);
+}
+.select-inp{
+    background-color: var(--header__color);
+}
+.select-inp{
+    color:var(--main_color);
+
+}
+.first-card{
+    background-color: var(--header__color);
+}
+.content-color{
+    color:var(--main_color);
+}
+.bn-col{
+    background: var(--header__color);
+    color: var(--main_color);
+}
+.heading{
+    color: var(--main_color);
+}
